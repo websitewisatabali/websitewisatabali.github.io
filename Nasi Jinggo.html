@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Liburan di Bali</title>
+    <style>
+      /* Gaya CSS untuk layout */
+      body {
+        background-image: url(Background\ 3.jpg);
+
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        background-image: url(batik\ tod.jpg);
+      }
+
+      nav {
+        background-color: #0000006f;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .column-side {
+        flex: 1;
+        padding: 20px;
+        background-color: #f2f2f231;
+        color: white;
+      }
+
+      .column-middle {
+        flex: 2;
+        padding: 20px;
+        background-color: #ffffff1d;
+        color: white;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      .dropbtn,
+      a {
+        background-color: rgba(255, 255, 255, 0.122);
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        text-decoration: none;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: rgba(0, 0, 0, 0.215);
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: rgba(247, 247, 247, 0.871);
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: #ffffff77;
+      }
+
+      @media (max-width: 800px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Liburan di Bali</h1>
+      <p>Selamat datang di panduan liburan Bali kami.</p>
+      <nav>
+        <div class="container">
+          <ul>
+            <li>
+              <a class="btn" href="index.html">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Destinasi</button>
+                <div class="dropdown-content">
+                  <a href="DESTINASI BALI.html">Tanah Lot</a>
+                  <a href="Pantai Kuta.html">Pantai Kuta</a>
+                  <a href="Air Terjun Aling Aling.html"
+                    >Air Terjun Aling Aling</a
+                  >
+                  <a href="Uluwatu temple.html">Uluwatu Temple</a>
+                  <a href="Pura Besakih.html">Pura Besakih</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Aktivitas<i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Berjemur di Pantai.html">Berjemur di Pantai</a>
+                  <a href="Belajar membuat Perhiasan.html"
+                    >Belajar membuat Perhiasan</a
+                  >
+                  <a href="Naik Kapal Pesiar.html">Naik Kapal Pesiar</a>
+                  <a href="Keliling Bali.html">Keliling Pulau Bali</a>
+                  <a href="Belajar Selancar.html">Belajar selancar</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Kuliner<i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Ayam Betutu 2.html">Ayam Betutu</a>
+                  <a href="Babi Guling.html">Babi Guling</a>
+                  <a href="Nasi Tepeng.html">Nasi Tempong</a>
+                  <a href="Lawar.html">Lawar</a>
+                  <a href="Nasi Jinggo.html">Nasi Jinggo</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Fakta Menarik<i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Kebudayaan Bali.html">Kebudayaan</a>
+                  <a href="Flora Fauna.html">Flora Fauna</a>
+                  <a href="Kepercayaan.html">Kepercayaan</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="column-side">
+          <h2>Hidangan Praktis dan Lezat: Nasi Jinggo</h2>
+          <p>
+            Nasi Jinggo adalah hidangan tradisional Bali yang terkenal dengan
+            porsi kecil namun rasa yang lezat. Berikut adalah informasi mengenai
+            Nasi Jinggo di Bali:
+          </p>
+
+          <h2>Bahan Utama dan Penyajian</h2>
+          <p>
+            Nasi Jinggo terdiri dari porsi kecil nasi yang disajikan bersama
+            lauk-pauk seperti ayam suwir, tempe, tahu, sambal, dan kacang teri.
+            Hidangan ini biasanya dibungkus menggunakan daun pisang sehingga
+            praktis untuk dibawa dan dimakan.
+          </p>
+        </div>
+        <div class="column-middle">
+          <center><h2>Nasi jinggo</h2></center>
+          <img src="jinggo.jpg" alt="Pemandangan Bali" style="width: 50vw" />
+        </div>
+        <div class="column-side">
+          <h2>Harga Terjangkau</h2>
+          <p>
+            Nasi Jinggo menjadi favorit di kalangan masyarakat Bali karena
+            selain rasanya yang enak, harganya juga terjangkau. Hidangan ini
+            sering dijual di warung-warung pinggir jalan atau pedagang kaki lima
+            dengan harga yang ramah di kantong.
+          </p>
+
+          <h2>Keunikan Portion</h2>
+          <p>
+            Nama "Jinggo" berasal dari bahasa Bali yang artinya kecil atau
+            sedikit. Meskipun porsinya kecil, Nasi Jinggo memiliki keunikan dan
+            kelezatan tersendiri yang membuatnya diminati oleh banyak orang.
+          </p>
+
+          <h2>Pencinta Kuliner Praktis</h2>
+          <p>
+            Bagi pencinta kuliner praktis, Nasi Jinggo adalah solusi yang tepat
+            untuk menikmati variasi lauk-pauk dalam satu porsi kecil. Nikmati
+            kemudahan dan kelezatan Nasi Jinggo saat berada di Bali.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>XI-7 / 10 / Darren Manuel Tantowi</p>
+    </footer>
+  </body>
+</html>

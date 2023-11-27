@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Liburan di Bali</title>
+    <style>
+      /* Gaya CSS untuk layout */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #555;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .column-side {
+        flex: 1;
+        padding: 20px;
+        background-color: #f2f2f2;
+      }
+
+      .column-middle {
+        flex: 2;
+        padding: 20px;
+        background-color: #fff;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      .dropbtn {
+        background-color: #04aa6d;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Liburan di Bali</h1>
+      <p>Selamat datang di panduan liburan Bali kami.</p>
+    </header>
+
+    <nav>
+      <div class="container">
+        <ul>
+          <li>
+            <a class="btn" href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Destinasi</button>
+              <div class="dropdown-content">
+                <a href="DESTINASI BALI.html">Tanah Lot</a>
+                <a href="Pantai Kuta.html">Pantai Kuta</a>
+                <a href="Bukit Batu Kursi Pemutaran.html"
+                  >Air Terjun Aling Aling</a
+                >
+                <a href="#">Uluwatu Temple</a>
+                <a href="#">Pura Besakih</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Aktivitas<i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Berjemur di Pantai</a>
+                <a href="#">Belajar membuat Perhiasan</a>
+                <a href="#">Naik Kapal Pesiar</a>
+                <a href="#">Keliling Pulau Bali</a>
+                <a href="#">Belajar selancar</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Kuliner<i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Ayam Betutu</a>
+                <a href="#">Babi Guling</a>
+                <a href="#">Nasi Tepeng</a>
+                <a href="#">Lawar</a>
+                <a href="#">Nasi Jinggo</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Fakta Menarik<i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Kebudayaan</a>
+                <a href="#">Flora Fauna</a>
+                <a href="#">Kepercayaan</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="column-side">
+          <h2>Lokasi</h2>
+          <p>
+            Pantai Kuta terletak di sebelah selatan Pulau Bali, Indonesia.
+            Terletak sekitar 11 kilometer sebelah selatan Denpasar, ibu kota
+            Bali.
+          </p>
+
+          <h2>Keindahan Pantai</h2>
+          <p>
+            Pantai Kuta dikenal karena pasir putihnya yang lembut, ombak yang
+            cocok untuk berselancar, dan pemandangan matahari terbenam yang
+            spektakuler. Pantai ini membentang sepanjang kurang lebih 8
+            kilometer.
+          </p>
+
+          <h2>Surfing</h2>
+          <p>
+            Pantai Kuta merupakan salah satu destinasi utama bagi peselancar.
+            Ombak yang cukup tinggi dan konsisten menjadikan pantai ini cocok
+            untuk berbagai tingkatan peselancar, mulai dari pemula hingga yang
+            mahir.
+          </p>
+        </div>
+        <div class="column-middle">
+          <center><h2>Pantai Kuta</h2></center>
+          <img src="Pantai kuta.jpeg" alt="Pemandangan Bali" />
+        </div>
+        <div class="column-side">
+          <h2>Fasilitas Wisata</h2>
+          <p>
+            Di sekitar Pantai Kuta, terdapat berbagai fasilitas wisata seperti
+            hotel, restoran, bar, dan toko suvenir. Kawasan sekitar pantai juga
+            dikenal dengan kehidupan malam yang ramai.
+          </p>
+
+          <h2>Kegiatan Lain</h2>
+          <p>
+            Selain berselancar, pengunjung dapat menikmati aktivitas lain
+            seperti bermain bola voli pantai, berkuda, atau sekadar bersantai di
+            tepi pantai. Pantai Kuta juga menjadi tempat untuk berbagai acara
+            dan festival.
+          </p>
+
+          <h2>Keamanan dan Keselamatan</h2>
+          <p>
+            Pantai Kuta memiliki penjaga pantai yang berpatroli untuk menjaga
+            keamanan pengunjung. Meskipun demikian, tetap perhatikan tanda
+            peringatan dan ikuti petunjuk keselamatan.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Hak Cipta &copy; 2023 Liburan di Bali</p>
+    </footer>
+  </body>
+</html>
